@@ -1,1 +1,35 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-family: Cambria, Verdana, sans-serif;
+		background-color: #d2e9ff;
+	}
+	
+	h1 {
+		font-size: 30px;
+		text-align: center;
+		color: #463996;
+		padding: 5px;
+	}
+	
+	p {
+		font-size: 15px;
+		color: #463996;
+		text-align: center;
+		padding: 2px;
+	}
+	
+	table{
+		padding: 30px 500px;
+	}
+	
+	img {
+		width: 120px;
+		height: 120px;
+		padding: 2px;
+	}
+	
 
