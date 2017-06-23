@@ -22,14 +22,35 @@
 		padding: 2px;
 	}
 	
-	table{
-		padding: 30px 500px;
+	.buttons {
+		margin: 20px 200px;
+	}
+	
+	button {
+		padding: 8px 8px;
+	}
+	
+	.cards {
+		padding: 10px;
+		float: left;
+		margin: 30px;
 	}
 	
 	img {
-		width: 120px;
-		height: 120px;
+		width: 80px;
+		height: 80px;
 		padding: 2px;
+	}
+	
+	.video {
+		padding: 10px 140px 10px 10px;
+		float: right;
+		margin: 30px;
+	}
+	
+	embed {
+		width: 450px;
+		height: 350px;
 	}
 	
 
