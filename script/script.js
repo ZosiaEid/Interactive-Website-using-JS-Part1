@@ -1,15 +1,10 @@
-document.getElementById("1").onmouseover = function() {mouseOver()};
-document.getElementById("1").onmouseout = function() {mouseOut()};
-document.getElementById("1").onclick = function() {onclick()};
+document.getElementById("A").onmouseover = cardOnMouseOverHandler;
+document.getElementById("A").onmouseout = cardOnMouseOutHandler;
 
-function mouseOver() {
-    document.getElementById("1").src = "winogrona.jpg";
+function cardOnMouseOverHandler() {
+    document.getElementById("A")images.src = "aligator.jpg";
 }
 
-function mouseOut() {
-    document.getElementById("1").src = "karta1.jpg";
-}
-
-function onclick() {
-    document.getElementById("1").src = "winogrona.jpg";
+function cardOnMouseOutHandler() {
+    document.getElementById("A")images.src = "A.jpg";
 }
