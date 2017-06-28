@@ -1,16 +1,7 @@
-document.getElementById("A").onmouseover = cardonmouseOverHandler;
-document.getElementById("A").onmouseout = cardonmouseOutHandler;
+document.getElementById("dodaj").onclick = function() {dodaj(a,b)};
 
-function cardonmouseOverHandler() {
-    document.getElementById("A").images.src = "aligator.jpg";
+function dodaj(a,b) {
+	return document.getElementById("a") + document.getElementById("b");
 }
 
-function cardonmouseOutHandler() {
-    document.getElementById("A").images.src = "A.jpg";
-}
-
-document.getElementById("1").onclick = onclick1Button;
-
-function onclick1Button () {
-	document.getElementById("1").images.src = "A.jpg";
-}
+document.getElementById("wynik").innerHTML = "dodaj(a,b)";
