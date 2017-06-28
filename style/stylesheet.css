@@ -1,56 +1,17 @@
-* {
-		margin: 0;
-		padding: 0;
-	}
-	
-	body {
-		font-family: Cambria, Verdana, sans-serif;
-		background-color: #d2e9ff;
-	}
-	
-	h1 {
-		font-size: 30px;
-		text-align: center;
-		color: #463996;
-		padding: 5px;
-	}
-	
-	p {
-		font-size: 15px;
-		color: #463996;
-		text-align: center;
-		padding: 2px;
-	}
-	
-	.buttons {
-		margin: 20px 200px;
-	}
-	
-	button {
-		padding: 8px 8px;
-	}
-	
-	.cards {
-		padding: 10px;
-		float: left;
-		margin: 30px;
-	}
-	
-	img {
-		width: 80px;
-		height: 80px;
-		padding: 2px;
-	}
-	
-	.video {
-		padding: 10px 140px 10px 10px;
-		float: right;
-		margin: 30px;
-	}
-	
-	embed {
-		width: 450px;
-		height: 350px;
-	}
-	
+div {
+	padding: 200px 550px;
+}
 
+p {
+	padding: 5px 150px;
+}
+
+input {
+	width: 100px;
+	height: 40px;
+}
+
+button {
+	width: 30px;
+	height: 30px;
+}
